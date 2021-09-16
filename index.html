@@ -15,7 +15,7 @@
 
     <title>Responsive resume cv</title>
   </head>
-  <body>
+  <body class="scale-cv">
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
       <nav class="nav bd-container">
@@ -93,7 +93,7 @@
               </div>
               <div class="home__address bd-grid">
                 <span class="home__information">
-                  <i class="bx bx-map home__icon"></i> Tashkent city
+                  <i class="bx bx-map home__icon"></i> Tashkent
                 </span>
                 <span class="home__information">
                   <i class="bx bx-envelope home__icon"></i>
@@ -106,7 +106,11 @@
             </div>
             <!-- Theme change button -->
 
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
             <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
           </section>
 
           <!--========== SOCIAL ==========-->
@@ -327,9 +331,20 @@
                   <li>Email: user@email.com</li>
                 </ul>
               </div>
+
+
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">John</span>
+                <h3 class="references__title">Mr Smith</h3>
+                <ul class="references__contact">
+                  <li>Phone:97 777-77-77</li>
+                  <li>Email: user@email.com</li>
+                </ul>
+
+              </div>
             </div>
 
-            <div class="references__container bd-grid">
+            <!-- <div class="references__container bd-grid">
               <div class="references__content bd-grid">
                 <span class="references__subtitle">John</span>
                 <h3 class="references__title">Mr Smith</h3>
@@ -338,18 +353,7 @@
                   <li>Email: user@email.com</li>
                 </ul>
               </div>
-            </div>
-
-            <div class="references__container bd-grid">
-              <div class="references__content bd-grid">
-                <span class="references__subtitle">John</span>
-                <h3 class="references__title">Mr Smith</h3>
-                <ul class="references__contact">
-                  <li>Phone:97 777-77-77</li>
-                  <li>Email: user@email.com</li>
-                </ul>
-              </div>
-            </div>
+            </div> -->
           </section>
 
           <!--========== LANGUAGES ==========-->
