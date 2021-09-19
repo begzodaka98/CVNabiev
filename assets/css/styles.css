@@ -173,6 +173,21 @@ body.scale-cv {
   transform: translate(5px, 0);
 }
 
+.scale-cv .education__data,
+.scale-cv .experience__data {
+  gap:  .25rem
+}
+
+.scale-cv .skills__name {
+  margin-bottom: var(--mb-1);
+}
+
+.scale-cv .interests__container {
+  column-gap:  2.5rem;
+}
+
+
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
